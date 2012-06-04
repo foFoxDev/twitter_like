@@ -37,4 +37,6 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'execjs'
+  gem 'therubyracer', :platforms => :ruby
 end
